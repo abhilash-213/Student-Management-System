@@ -1,0 +1,235 @@
+<html>
+<head>
+    <title>
+        My Info
+    </title>
+    <link rel="stylesheet" href="result1.css">
+    <script type="text/javascript" src="marks.js"> 
+    function logout()
+            {
+            window.location.href = "login.html";
+            }    
+    </script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="univ"><img src="sru.png" class="one">
+        </div>
+        <ul>
+            <li><a href="profile2.html">My Profile</a></li>
+            <li><a href="admin_results.html" style="background-color: rgb(73, 70, 70)">Marks</a></li>
+            <li><a href="timetable.html">Time table</a></li>
+            <li><a href="construct.html">Notes</a></li>
+            <li><a href="admin_attendance.html">Attendance</a></li>
+            <li><a href="construct.html">Assignments</a></li>
+            <li><a href="construct.html">Fee Payment</a></li>
+            <li><a href="admin_notice.html">Notice Board</a></li>
+            <li><a href="admin_feedback.html">Feedback</a></li>
+            <button type="button" id="button" onclick="logout()"><b>LogOut</b>
+            </button>
+        </ul>
+    </div>
+    <div class="total">
+        <div style="margin-left: 0.5cm;float: left ;font-size: 0.8cm;width: 6.9cm;">Overall Marks</div>
+        <div class="semwise">
+            <table class="sem1">
+                <tr>
+                    <td id="heads"><b>Backlogs</b></td>
+                    <td id="heads"><b>CGPA</b></td>
+                    <td id="heads"><b>Percentage</b></td>
+                    <td id="heads"><b>Credits </b></td>
+                </tr>
+                <tr>
+                    <td id="head1"><b>-</b></td>
+                    <td id="head2"><b>-</b></td>
+                    <td id="head3"><b></b></td>
+                    <td id="head4"><b></b></td>
+                </tr>
+            </table>
+            </div><br>
+       <div> <ul style="margin-left: 0.1cm;float: left;">
+            <li><a href="#" style="background-color: rgb(73, 70, 70)">Semester - 1</a></li>
+            <li><a href="#">Semester-2</a></li>
+        </ul>
+    </div>
+        <div class="semwise">
+            <table class="sem1">
+                <tr>
+                    <td id="heads"><b>Backlogs</b></td>
+                    <td id="heads"><b>CGPA</b></td>
+                    <td id="heads"><b>Percentage</b></td>
+                    <td id="heads"><b>Credits </b></td>
+                </tr>
+                <tr>
+                    <td id="head1"><b>-</b></td>
+                    <td id="head2"><b></b></td>
+                    <td id="head3"><b></b></td>
+                    <td id="head4"><b></b></td>
+                </tr>
+            </table>
+            </div>
+        <div class="result">
+            <form>
+            <table class="result_table">
+                <tr id="heading">
+                    <th>Sl.No</th>
+                    <th>Subject Code</th>
+                    <th>Subject Type</th>
+                    <th>Credits</th>
+                    <th>Name of the Subject</th>
+                    <th>Internal Maximum</th>
+                    <th>Internal Obtained</th>
+                    <th>External Maximum</th>
+                    <th>External Obtained</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    <th>Grade</th>
+                    <th>GPA</th>
+                </tr>
+                <tr id="sub">
+                    <div class="sub1">
+                    <td id="subject">1</td>
+                    <td id="subject">20BS101</td>
+                    <td id="subject">Theory</td>
+                    <td id="subject">4</td>
+                    <td id="subject">Calculus and Differential Equations</td>
+                    <td id="subject">40</td>
+                    <td id="subject"><input type="text" id="sub1" onblur="reSum(sub1,sub_1,total1,chck1,grade1,gpa1)"/> </td>
+                    <td id="subject">60</td>
+                    <td id="subject"><input type="text" id="sub_1" onblur="reSum(sub1,sub_1,total1,chck1,grade1,gpa1)"/> </td>
+                    <td id="subject"><input type="text" id="total1" readonly /> </td>
+                    
+                    <td id="subject"><input type="text" id="chck1" readonly /> </td>
+                    <td id="subject"> <input type="text" id="grade1" readonly /></td>
+                    
+                    <td id="subject"><input type="text" id="gpa1" readonly /> </td>
+                </div>
+                </tr>
+                <tr id="sub">
+                    <td id="subject">2</td>
+                    <td id="subject">20BS101</td>
+                    <td id="subject">Theory</td>
+                    <td id="subject">3</td>
+                    <td id="subject">Engineering Physics</td>
+                    <td id="subject">40</td>
+                    <td id="subject"><input type="text" id="sub2" onblur="reSum(sub2,sub_2,total2,chck2,grade2,gpa2)"/></td>
+                    <td id="subject">60</td>
+                    <td id="subject"><input type="text" id="sub_2" onblur="reSum(sub2,sub_2,total2,chck2,grade2,gpa2)"/></td>
+                    <td id="subject"> <input type="text" id="total2" readonly /> </td>
+                    <td id="subject"><input type="text" id="chck2" readonly /></td>
+                    <td id="subject"><input type="text" id="grade2" readonly /></td>
+                    <td id="subject"> <input type="text" id="gpa2" readonly /></td>
+                </tr>
+                <tr id="sub">
+                    <td id="subject">3</td>
+                    <td id="subject">20ES102</td>
+                    <td id="subject">Theory</td>
+                    <td id="subject">3</td>
+                    <td id="subject">Basic Electrical and Electronical Engineering</td>
+                    <td id="subject">40</td>
+                    <td id="subject"><input type="text" id="sub3" onblur="reSum(sub3,sub_3,total3,chck3,grade3,gpa3)"/></td>
+                    <td id="subject">60</td>
+                    <td id="subject"><input type="text" id="sub_3" onblur="reSum(sub3,sub_3,total3,chck3,grade3,gpa3)"/></td>
+                    <td id="subject"> <input type="text" id="total3" readonly /></td>
+                    <td id="subject"> <input type="text" id="chck3" readonly /></td>
+                    <td id="subject"> <input type="text" id="grade3" readonly /></td>
+                    <td id="subject"> <input type="text" id="gpa3" readonly /></td>
+                </tr>
+                <tr id="sub">
+                    <td id="subject">4</td>
+                    <td id="subject">20ES108</td>
+                    <td id="subject">Lab</td>
+                    <td id="subject">3</td>
+                    <td id="subject">Smart System Design</td>
+                    <td id="subject">50</td>
+                    <td id="subject"> <input type="text" id="sub4" onblur="reSum(sub4,sub_4,total4,chck4,grade4,gpa4)"/></td>
+                    <td id="subject">50</td>
+                    <td id="subject"><input type="text" id="sub_4" onblur="reSum(sub4,sub_4,total4,chck4,grade4,gpa4)"/> </td>
+                    <td id="subject"><input type="text" id="total4" readonly /> </td>
+                    <td id="subject"> <input type="text" id="chck4" readonly /></td>
+                    <td id="subject"> <input type="text" id="grade4" readonly /></td>
+                    <td id="subject"><input type="text" id="gpa4" readonly /> </td>
+                </tr>
+                <tr id="sub">
+                    <td id="subject">5</td>
+                    <td id="subject">20ES109</td>
+                    <td id="subject">Lab</td>
+                    <td id="subject">2</td>
+                    <td id="subject">Programming Tools and Techniques</td>
+                    <td id="subject">40</td>
+                    <td id="subject"><input type="text" id="sub5" onblur="reSum(sub5,sub_5,total5,chck5,grade5,gpa5)"/> </td>
+                    <td id="subject">60</td>
+                    <td id="subject"> <input type="text" id="sub_5" onblur="reSum(sub5,sub_5,total5,chck5,grade5,gpa5)"/></td>
+                    <td id="subject"><input type="text" id="total5" readonly /> </td>
+                    <td id="subject"> <input type="text" id="chck5" readonly /></td>
+                    <td id="subject"> <input type="text" id="grade5" readonly /></td>
+                    <td id="subject"> <input type="text" id="gpa5" readonly /></td>
+                </tr>
+                <tr id="sub">
+                    <td id="subject">6</td>
+                    <td id="subject">20ES103</td>
+                    <td id="subject">Theory</td>
+                    <td id="subject">2</td>
+                    <td id="subject">Introduction to Programming</td>
+                    <td id="subject">40</td>
+                    <td id="subject"><input type="text" id="sub6" onblur="reSum(sub6,sub_6,total6,chck6,grade6,gpa6)"/> </td>
+                    <td id="subject">60</td>
+                    <td id="subject"><input type="text" id="sub_6" onblur="reSum(sub6,sub_6,total6,chck6,grade6,gpa6)"/> </td>
+                    <td id="subject"> <input type="text" id="total6" readonly /></td>
+                    <td id="subject"> <input type="text" id="chck6" readonly /></td>
+                    <td id="subject"> <input type="text" id="grade6" readonly /></td>
+                    <td id="subject"> <input type="text" id="gpa6" readonly /></td>
+                </tr>
+                <tr id="sub">
+                    <td id="subject">7</td>
+                    <td id="subject">20ES111</td>
+                    <td id="subject">Lab</td>
+                    <td id="subject">1</td>
+                    <td id="subject">Introduction to Programming Lab</td>
+                    <td id="subject">40</td>
+                    <td id="subject"><input type="text" id="sub7" onblur="reSum(sub7,sub_7,total7chck7,grade7,gpa7)"/></td>
+                    <td id="subject">60</td>
+                    <td id="subject"><input type="text" id="sub_7" onblur="reSum(sub7,sub_7,total7,chck7,grade7,gpa7)"/></td>
+                    <td id="subject"><input type="text" id="total7" readonly /> </td>
+                    <td id="subject"> <input type="text" id="chck7" readonly /></td>
+                    <td id="subject"> <input type="text" id="grade7" readonly /></td>
+                    <td id="subject"> <input type="text" id="gpa7" readonly /></td>
+                </tr>
+                <tr id="sub">
+                    <td id="subject">8</td>
+                    <td id="subject">20HS102</td>
+                    <td id="subject">Lab</td>
+                    <td id="subject">1</td>
+                    <td id="subject">English Proficiency Lab</td>
+                    <td id="subject">40</td>
+                    <td id="subject"><input type="text" id="sub8" onblur="reSum(sub8,sub_8,total8,chck8,grade8,gpa8)"/> </td>
+                    <td id="subject">60</td>
+                    <td id="subject"><input type="text" id="sub_8" onblur="reSum(sub8,sub_8,total8,chck8,grade8,gpa8)"/> </td>
+                    <td id="subject"> <input type="text" id="total8" readonly /></td>
+                    <td id="subject"> <input type="text" id="chck8" readonly /></td>
+                    <td id="subject"> <input type="text" id="grade8" readonly /></td>
+                    <td id="subject"> <input type="text" id="gpa8" readonly /></td>
+                </tr>
+                <tr id="sum_sem">
+                    <td id="sum"></td>
+                    <td id="sum"></td>
+                    <td id="sum"></td>
+                    <td id="sum"><b>19</b></td>
+                    <td id="sum"><b>Total Marks</b></td>
+                    <td id="sum"><b>330</b></td>
+                    <td id="sum"><b><input type="text" id="internal"/> </b></td>
+                    <td id="sum"><b>470</b></td>
+                    <td id="sum"><b><input type="text" id="external"/> </b></td>
+                    <td id="sum"><b><input type="text" id="totalmarks"/> </b></td>
+                    <td id="sum"> </td>
+                    <td id="sum"></td>
+                    <td id="sum"><b><input type="text" id="gpa"/></b> </td>
+                </tr>
+            </table>
+            <input type="submit" id="save" onclick="saveMarks()"></input>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

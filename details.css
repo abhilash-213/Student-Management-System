@@ -1,0 +1,75 @@
+.details
+{
+    margin-left:0.4cm;
+}
+.img
+{
+    margin-left:10px;
+    margin-top:5px;
+    width : 2.5cm;
+    height : 2cm;
+}
+#key
+{
+    font-size:11mm;
+    
+}
+#all
+{
+    border-radius :10px;
+    margin-bottom:7mm;
+    float:left;
+    width : 89mm;
+    border : 1px solid purple;
+    background-color:rgb(211, 211, 18);
+    margin-right:7mm;
+}
+        .tab
+        {
+            float : right;
+        }
+        .tag
+        {
+            background-image: url("background.jpg");
+            font-size: 0.7cm;
+        }
+        .univ
+        {
+            background-image: url("background.jpg");
+            font-size: 1.7cm;
+        }
+        .quo
+        {
+            margin-left:5cm;
+        }
+       .about
+       {
+           float:left;
+           width:5.4cm;
+           background-color: cornflowerblue;
+           height:12.5cm;
+       }
+       .scrol
+       {
+            margin-left:5.4cm;
+            font-size: 0.7cm;
+       }
+       .dash
+        {
+            font-size:1.3cm;
+            background-color: yellowgreen;
+            margin-left:5.4cm;
+        }
+        
+        .image
+        {
+            width: 3cm;
+            height:4.5cm;
+            margin-left:1cm;
+            margin-top:0.5cm;
+            margin-bottom:0.5cm;
+        }
+        .st
+        {
+            margin-left:5mm;
+        }

@@ -1,0 +1,155 @@
+.one
+{
+    height:2cm;
+    margin-left: 0.5cm;
+}
+#box
+{
+    border:1px solid white;
+    border-radius: 4px;
+}
+#logout
+{
+    margin-left:1cm;
+}
+#button
+{
+    border-radius: 5px;
+    background-color: orangered;
+    height:9mm;
+    width:28mm;
+}
+.logo
+{
+    width:7.5mm;
+    height:6mm;
+    border-radius:5px;
+}
+#abt
+{
+    margin-left: 1.5cm;
+    float:left;
+}
+#int
+{
+    margin-left:30%;
+}
+#yt
+{
+    float:right;
+    width:6cm;
+    
+}
+.black
+{
+    position: absolute;
+    bottom: 0px;
+    height:0.9cm;
+    width: 100%;
+    font-size: 0.6cm;
+    color:white;
+    float :left;
+    background-color:rgb(46, 36, 36);
+}
+#odd
+{
+    text-align:right;
+}
+#table
+{
+    border : 1px solid black;
+    border-radius: 10px;
+    margin-left:0.4mm;
+    margin-right:0.2mm; 
+    font-size: 0.50cm;
+    margin-bottom:0.6cm;
+}
+.content
+{
+    margin-top: 6mm;
+    margin-left:6cm;
+
+}
+.details
+{
+    margin-left:0.4cm;
+}
+.img
+{
+    margin-left:10px;
+    margin-top:5px;
+    width : 2.5cm;
+    height : 2cm;
+}
+#key
+{
+    font-size:11mm;
+}
+#all
+{
+    border-radius :10px;
+    margin-bottom:7mm;
+    float:left;
+    width : 89mm;
+    border : 1px solid black;
+    color:white;
+    background-image: url("orange.jpg");
+    margin-right:7mm;
+}
+        .tab
+        {
+            float : right;
+        }
+        .tag
+        {
+            background-image: url("dark.jpg");
+            font-size: 0.7cm;
+        }
+        .univ
+        {
+            background-image: url("dark.jpg");
+        }
+        .quo
+        {
+            color:white;
+            margin-left:5cm;
+        }
+        .about
+        {
+            border:3px solid black;
+            border-radius: 10px;
+            float:left;
+            width:5.2cm;
+            background-image: url("yelllow1.jpg");
+            height: 12.05cm;
+        }
+       .scrol
+       {
+            margin-left:5.4cm;
+            font-size: 0.7cm;
+            color:white;
+       }
+       .das
+       {
+           margin-left: 1cm;
+           color:white;
+       }
+       .dash
+        {
+            font-size:1.3cm;
+            background-image: url("dark.jpg");
+            margin-left:5.4cm;
+        }
+        
+.image
+{
+    width: 3cm;
+    height:4.5cm;
+    margin-left:1cm;
+    margin-top:0.5cm;
+    margin-bottom:0.5cm;
+}
+        .st
+        {
+            margin-left:5mm;
+        }

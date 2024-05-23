@@ -1,0 +1,347 @@
+<html>
+    <head>
+        <title>
+            My Info
+        </title>
+        <link rel="stylesheet" href="info.css">
+        <script>
+            function logout()
+            {
+            window.location.href = "login.html";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="top">
+        <div class="univ"><img src="sru.png" class="one">
+        </div>
+        <div>
+            <ul>
+                <li><a href="profile2.html" style="background-color: rgb(73, 70, 70)">My Profile</a></li>
+                <li><a href="admin_results.html">Marks</a></li>
+                <li><a href="timetable.html">Time table</a></li>
+                <li><a href="construct.html">Notes</a></li>
+                <li><a href="admin_attendance.html">Attendance</a></li>
+                <li><a href="construct.html">Assignments</a></li>
+                <li><a href="construct.html">Fee Payment</a></li>
+                <li><a href="admin_notice.html">Notice Board</a></li>
+                <li><a href="admin_feedback.html">Feedback</a></li>
+                    <button type="button" id="button" onclick="logout()"><b>LogOut</b> 
+                    </button>
+              </ul>
+        </div>
+        </div>
+        <div class="total">
+        <div class="contain">
+          
+                <div class="head"><h2>Student Basic Information</h2></div>
+                <table id="table1">
+                    <tr>
+                        <td>Hall Ticket Number</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Student Full Name</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Course & Branch</td>
+                        <td><select id="texter">
+                                <option>Select Course</option>
+                                <option>Engineering {CSE}</option>
+                                <option>Engineering {ECE}</option>
+                                <option>Engineering {EEE}</option>
+                                <option>Engineering {CIVIL}</option>
+                                <option>Engineering {MECH}</option>
+                                <option>BBA (Integrated MBA)</option>
+                                <option>BBA</option>
+                                <option>Agriculture</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Year</td>
+                        <td><select id="texter">
+                            <option>Select year</option>
+                            <option> Year-1 : Sem-1</option>
+                            <option>Year-1 : Sem-2</option>
+                            <option>Year-2 : Sem-1</option>
+                            <option>Year-2 : Sem-2</option>
+                            <option>Year-3 : Sem-1</option>
+                            <option>Year-3 : Sem-2</option>
+                            <option>Year-4 : Sem-1</option>
+                            
+                    </select></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="head2">
+                <h2>Academic Information</h2>
+                <table id="table2">
+                    <tr>
+                        <td>Admission Number </td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Admission Quota</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>Convenor</option>
+                            <option>Management</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of Admission</td>
+                        <td><input type="date" id="texter"></td>
+                    </tr>
+                </table>
+            </div>
+                <h2>Student Basic Ddetails</h2>
+                <table class="table3">
+                    <tr>
+                        <td>Father Name</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Father Occupation</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Father Mobile Number</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                        <tr>
+                            <td>Mother Name</td>
+                            <td><input type="text" id="texter"></td>
+                    </tr>
+                        <tr>
+                            <td>Mother Occupation</td>
+                            <td><input type="text" id="texter"></td>
+                        </tr>
+                        <tr>
+                            <td>Mother Mobile Number</td>
+                            <td> <input type="text" id="texter"></td>
+                        </tr>
+                        <tr>
+                            <td>Student Mobile Number</td>
+                            <td><input type="text" id="texter"></td>
+                        </tr>
+                        <tr>
+                            <td>Student Email</td>
+                            <td><input type="email" id="texter"></td>
+                        </tr>
+                        <tr>
+                                <td>Gender</td>
+                                <td><input type="radio" id="texte">Male
+                                    <input type="radio" id="texte">Female
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth</td>
+                            <td><input type="date" id="texter"></td>
+                        </tr>
+                        <tr>
+                            <td>Religion</td>
+                            <td><select id="texter">
+                                <option>Select</option>
+                                <option>Hindu</option>
+                                <option>Muslim</option>
+                                <option>Christian</option>
+                                <option>Sikh</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Caste</td>
+                            <td>
+                                <select id="texter">
+                                    <option>Select</option>
+                                    <option>OC</option>
+                                    <option>BC-D</option>
+                                    <option>BC-C</option>
+                                    <option>BC-B</option>
+                                    <option>BC-A</option>
+                                    <option>SC</option>
+                                    <option>ST</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Is Physicallly Handicaped</td>
+                            <td><select id="texter">
+                                <option>Select</option>
+                                <option>NO</option>
+                                <option>YES</option></td>
+                        </tr>
+                        
+                </table>
+                <h2>Contact Address</h2>
+                <table class="table4">
+                    <tr>
+                        <td>State</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>Telangana</option>
+                            <option>Andhra Pradesh</option>
+                            <option>Kerala</option>
+                            <option>Maharastra</option>
+                            <option>Karnataka</option>
+                            <option>Goa</option>
+                            <option>Orissa</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>District</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>Warangal</option>
+                            <option>Karimnagar</option>
+                            <option>Adilabad</option>
+                            <option>Khammamm</option>
+                            <option>Hyderabad</option>
+                            <option>Medchal</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Mandal</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>Khila Warangal</option>
+                            <option>Hanmakonda</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Village</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>Warangal</option>
+                            <option>Mammnur </option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Street</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>House Number</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Pin Code</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                </table>
+                <table class="table5">
+                    <h2>Identification Details</h2>
+                    <tr>
+                        <td>Aadhar Details</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Identification Marks -1</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Identification Marks - 2</td>
+                        <td><input type="text" id="texter"> </td>
+                    </tr>
+                </table>
+                <h3>SSC Details</h3>
+                <table class="table6">
+                    <tr>
+                        <td>Hall Ticket Number</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Board of Study</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>School Name</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Year of Pass</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Percentage / CGPA</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>English</option>
+                            <option>Telugu</option>
+                            <option>Hindi</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Pass Type</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>Regular</option>
+                            <option>Supplimentary</option>
+                            <option>Vocational</option>
+                        </select></td>
+                    </tr>
+                </table>
+                <h2>10+2 Details</h2>
+                <table class="table7">
+                    <tr>
+                        <td>10+2 Type</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>10+2 HallTicket Number</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>College Name</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>College Address</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Board 10+2</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Group / Branch</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Year of Pass</td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Percentage of Marks / Grades </td>
+                        <td><input type="text" id="texter"></td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>English</option>
+                            <option>Telugu</option>
+                            <option>Hindi</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Pass Type</td>
+                        <td><select id="texter">
+                            <option>Select</option>
+                            <option>Regular</option>
+                            <option>Supplimentary</option>
+                            <option>Vocational</option>
+                        </select></td>
+                    </tr>
+                </table>
+                <button type="submit" id="button5"><b>Add Student</b></button>
+    </div>
+    </body>
+</html>

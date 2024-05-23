@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            input page
+        </title>
+        <script>
+            function passvalue()
+            {
+                var firstname=document.getElementById("txt").value;
+                localStorage.setItem("textvalue",firstname);
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <form action="page2.html">
+        <input type="text" id="txt" placeholder="enter text"/>
+        <input type="submit" value="click" onclick="passvalue();"/>
+    </form>
+    </body>
+</html>

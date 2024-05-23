@@ -1,0 +1,277 @@
+.result
+{
+    margin-left:0.16cm;
+    margin-top:0.50cm;
+    float:left;
+    margin-bottom: 0.25cm;
+    background-color: black;
+}
+.main
+{
+    margin-top: 0.3cm;
+    overflow-y:auto;
+    border:3px solid wheat;
+    background-image: url("pink.jpg");
+}
+#bot
+{
+    background-color:rgb(247, 238, 114);
+}
+#heading
+{
+    color:white;
+    background-color:#04AA6D ;
+}
+#heading,#td,#sub
+{
+    text-align: center;
+    border-collapse: collapse;
+}
+.res
+{
+    font-size: 0.43cm;;
+}
+#td
+{
+    border:0.0001px;
+    padding:2px;
+    background-color: whitesmoke;    
+}
+#bar
+{
+    background-color: #04AA6D;
+    border-color: #f1f1f1;
+    height:0.8cm;
+    width:3.18cm;
+    font-size: 0.4cm;
+    border-radius: 5px;
+    color:white;
+    cursor:pointer;
+}
+#sem
+{
+    color:white;
+        border-radius: 5px;
+        cursor:pointer;
+        background-color:rgb(253, 166, 4);
+}
+#bar:hover
+{
+    background-color: rgb(73, 70, 70);
+}
+#sem:hover
+{
+    background-color: rgb(87, 84, 83);
+}
+.comb
+{
+    width : 10cm;
+}
+#hig
+{
+    width:150px;
+}
+
+#f
+{
+    
+    font-size: 0.65cm;
+    background-color: white;
+}
+.d{
+    float:left;
+   margin-left:0.3cm;
+}
+.e
+{
+    margin-top: 0.5cm;
+    margin-left: 0.7cm;
+    font-size: 0.60cm;
+    width:5cm;
+    float: left;
+}
+#tt,#hig,#top
+{
+    color:white;
+    border-radius: 2.5px;
+    background-color:rgb(124, 22, 102);
+    text-align: center;
+    border :1.54px solid rgb(124, 22, 102);
+}
+#c
+{
+    width:150px;
+}
+.a
+{
+    margin-top: 0.2cm;
+    margin-left: 1cm;
+}
+#a,#b,#c
+{
+    color:white;
+    border-radius: 3px;
+    background-color:rgb(124, 22, 102);
+    text-align: center;
+    border :1.54px solid rgb(124, 22, 102);
+}
+.choose
+{
+    color :white;
+    margin-top:1.2cm;
+    margin-left:5.6cm;
+}
+.hii
+{
+    margin-top: 0.1cm;
+    margin-bottom: 0.1cm;
+    float:left;
+    margin-left:80px ;
+}
+.dash
+{
+    margin-left: 0.3cm;
+    float:left;
+    color:white;
+    margin-top: 0.2cm;
+    font-size: 0.8cm;
+}
+.navi
+{
+    background-image: url("dark.jpg");
+    margin-top: 0.3cm;
+    margin-left:5.6cm;
+    font-size: 0.7cm;
+}
+#year1
+{
+    border: 1px solid white;
+    padding :3px;
+    border-radius:3px;
+}
+#year2
+{
+    margin-left: 0.15cm;
+    border: 1px solid white ;
+    padding :3px;
+    border-radius:3px;
+}
+#year3
+{
+    margin-left: 0.15cm;
+    border: 1px solid white;
+    padding :3px;
+    border-radius:3px;
+}
+#year4
+{
+    margin-left: 0.15cm;
+    border: 1px solid white;
+    padding :3px;
+    border-radius:3px;
+}
+.one
+{
+    height:2cm;
+    margin-left: 0.5cm;
+}
+.univ
+{
+    background-image: url("dark.jpg");
+}
+.about
+{
+    margin-top: 0.5cm;
+    border:3px solid black;
+    border-radius: 10px;
+    float:left;
+    width:5.2cm;
+    background-image: url("yelllow1.jpg");
+    height: 12.3cm;
+}
+.image
+{
+    width: 3cm;
+    height:4.5cm;
+    margin-left:1cm;
+    margin-top:0.5cm;
+    margin-bottom:0.5cm;
+}
+#odd
+{
+    text-align:right;
+}
+#logout
+{
+    margin-left:1cm;
+}
+#button
+{
+    cursor:pointer;
+    border-radius: 5px;
+    background-color: orangered;
+    height:9mm;
+    width:28mm;
+}
+#abt
+{
+    margin-left: 1.5cm;
+    float:left;
+}
+#abt
+{
+    margin-left: 1.5cm;
+    float:left;
+}
+.black
+{
+    position: absolute;
+    bottom: 0px;
+    height:0.9cm;
+    width: 100%;
+    font-size: 0.6cm;
+    color:white;
+    float :left;
+    background-color:rgb(46, 36, 36);
+}
+.logo
+{
+    width:7.5mm;
+    height:6mm;
+    border-radius:5px;
+}
+#int
+{
+    margin-left:30%;
+}
+#yt
+{
+    float:right;
+    width:6cm;
+    
+}
+.black
+{
+    position: absolute;
+    bottom: 0px;
+    height:0.9cm;
+    width: 100%;
+    font-size: 0.6cm;
+    color:white;
+    float :left;
+    background-color:rgb(46, 36, 36);
+}
+#table
+{
+    border : 1px solid black;
+    border-radius: 10px;
+    margin-left:0.4mm;
+    margin-right:0.2mm; 
+    font-size: 0.50cm;
+    margin-bottom:0.6cm;
+}
+#box
+{
+    border:1px solid white;
+    border-radius: 4px;
+}

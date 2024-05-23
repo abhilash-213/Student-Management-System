@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+            Feedback
+        </title>
+        <link rel="stylesheet" href="feedback.css">
+        <script>
+             function showNotices()
+            {                
+                var feedbackarray = localStorage.getObj("feedbackarray");
+                let fLen = feedbackarray.length;
+
+                var text = "<tr><th>Sl.No</th><th>List of Feedback Received </th></tr>";
+                for (let i = 0; i < fLen; i++) {
+                    text += "<tr><td>"+(i+1)+"</td><td>" + feedbackarray[i] + "</td></tr>";
+                }         
+
+                document.getElementById("adminNoticeRecords").innerHTML = text;
+            }
+
+            Storage.prototype.setObj = function(key, obj) {
+                return this.setItem(key, JSON.stringify(obj))
+            }
+            Storage.prototype.getObj = function(key) {
+                 return JSON.parse(this.getItem(key))
+            }
+
+            function logout()
+            {
+                window.location.href = "login.html";
+            }
+        </script>
+    </head>
+    <body onload="showNotices()">
+        <div class="top">
+        <div class="univ"><img src="sru.png" class="one">
+        </div>
+        <div>
+            <ul>
+                <li><a href="profile2.html">My Profile</a></li>
+                <li><a href="admin_results.html">Marks</a></li>
+                <li><a href="timetable.html">Time table</a></li>
+                <li><a href="construct.html">Notes</a></li>
+                <li><a href="admin_attendance.html">Attendance</a></li>
+                <li><a href="construct.html">Assignments</a></li>
+                <li><a href="construct.html">Fee Payment</a></li>
+                <li><a href="admin_notice.html">Notice Board</a></li>
+                <li><a href="admin_feedback.html" style="background-color: rgb(73, 70, 70)">Feedback</a></li>
+                    <button type="submit" id="button" onclick="logout()"><b>LogOut</b> 
+                    </button>
+              </ul>
+        </div>
+        </div>
+        <div class="total" id="studentNotice">
+            <h1>Feedback From the Students</h1>
+            <table class="not1" id="adminNoticeRecords">
+
+            </table>
+            
+        </div>
+       
+        <script>
+            function myfunction() {
+                var x = document.getElementById("studentNotice") ;
+            }    
+        </script>
+    </body>
+</html>
